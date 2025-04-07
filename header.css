@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  background-color: darkblue;
+  height: 151px;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo img{height: 80px;border-radius: 110px;width: 80px;}
+.nav a{text-decoration: 0;margin-left: 87px;/* justify-content: space-around; */color: #fff;font-size: 24px;font-weight: bold;} 
+.btn button{padding: 10px 36px;border: 0;font-size: 20px;font-weight: bold;color: black;background-color: whitesmoke;border-radius: 8px;text-transform: capitalize;cursor: pointer;}
+.bgimg{
+  background-image: url(./Gallery/a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 21px;
+  height: 312px;
+}
+.mid img{
+  height: 250px;
+  width: 250px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(9, 5, 25);
+  color: #ffff;
+}
+.last a{display: block;text-decoration: 0;line-height: 27px;color: #ffff;}
+.back{background-color: skyblue;height: 25px;}
+.last h3{
+  margin-bottom: 34px;
+}
+.back h3{
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+.back a{
+  text-decoration: 0;
+}
